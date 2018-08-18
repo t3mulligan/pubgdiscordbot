@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/t3mulligan/pubgdiscordbot#readme",
   "dependencies": {
-    "pubg.js": "^3.6.0"
-  }
+    "battlegrounds": "^1.5.2"
+  },
+  "devDependencies": {}
 }
